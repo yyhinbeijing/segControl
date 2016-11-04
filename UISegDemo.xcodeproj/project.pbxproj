@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644571741DCCC1FD00683EB8 /* YYHSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */; };
 		648C7D881D93D7D100D1DFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648C7D871D93D7D100D1DFD1 /* main.m */; };
 		648C7D8B1D93D7D100D1DFD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648C7D8A1D93D7D100D1DFD1 /* AppDelegate.m */; };
 		648C7D8E1D93D7D100D1DFD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648C7D8D1D93D7D100D1DFD1 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		644571721DCCC1FD00683EB8 /* YYHSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHSegmentedControl.h; sourceTree = "<group>"; };
+		644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHSegmentedControl.m; sourceTree = "<group>"; };
 		648C7D831D93D7D100D1DFD1 /* UISegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648C7D871D93D7D100D1DFD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		648C7D891D93D7D100D1DFD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		648C7D851D93D7D100D1DFD1 /* UISegDemo */ = {
 			isa = PBXGroup;
 			children = (
+				644571721DCCC1FD00683EB8 /* YYHSegmentedControl.h */,
+				644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */,
 				648C7D891D93D7D100D1DFD1 /* AppDelegate.h */,
 				648C7D8A1D93D7D100D1DFD1 /* AppDelegate.m */,
 				648C7D8C1D93D7D100D1DFD1 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				648C7D8E1D93D7D100D1DFD1 /* ViewController.m in Sources */,
 				648C7D8B1D93D7D100D1DFD1 /* AppDelegate.m in Sources */,
 				648C7D881D93D7D100D1DFD1 /* main.m in Sources */,
+				644571741DCCC1FD00683EB8 /* YYHSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UISegDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UISegDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -439,7 +445,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UISegDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISegDemo.app/UISegDemo";
 			};
@@ -451,7 +457,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = UISegDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISegDemo.app/UISegDemo";
 			};
@@ -462,7 +468,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = UISegDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = UISegDemo;
 			};
@@ -473,7 +479,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = UISegDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.UISegDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangyonghui.UISegDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = UISegDemo;
 			};
@@ -498,6 +504,7 @@
 				648C7DB21D93D7D100D1DFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648C7DB31D93D7D100D1DFD1 /* Build configuration list for PBXNativeTarget "UISegDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				648C7DB51D93D7D100D1DFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648C7DB61D93D7D100D1DFD1 /* Build configuration list for PBXNativeTarget "UISegDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				648C7DB81D93D7D100D1DFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
