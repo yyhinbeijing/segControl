@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6437771E1DCD77BD0077099A /* AnotherGoodSegmentedContro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437771C1DCD77BD0077099A /* AnotherGoodSegmentedContro.m */; };
 		644571741DCCC1FD00683EB8 /* YYHSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */; };
 		648C7D881D93D7D100D1DFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648C7D871D93D7D100D1DFD1 /* main.m */; };
 		648C7D8B1D93D7D100D1DFD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648C7D8A1D93D7D100D1DFD1 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6437771C1DCD77BD0077099A /* AnotherGoodSegmentedContro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherGoodSegmentedContro.m; sourceTree = "<group>"; };
+		6437771D1DCD77BD0077099A /* AnotherGoodSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherGoodSegmentedControl.h; sourceTree = "<group>"; };
 		644571721DCCC1FD00683EB8 /* YYHSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHSegmentedControl.h; sourceTree = "<group>"; };
 		644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHSegmentedControl.m; sourceTree = "<group>"; };
 		648C7D831D93D7D100D1DFD1 /* UISegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +107,8 @@
 		648C7D851D93D7D100D1DFD1 /* UISegDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6437771C1DCD77BD0077099A /* AnotherGoodSegmentedContro.m */,
+				6437771D1DCD77BD0077099A /* AnotherGoodSegmentedControl.h */,
 				644571721DCCC1FD00683EB8 /* YYHSegmentedControl.h */,
 				644571731DCCC1FD00683EB8 /* YYHSegmentedControl.m */,
 				648C7D891D93D7D100D1DFD1 /* AppDelegate.h */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6437771E1DCD77BD0077099A /* AnotherGoodSegmentedContro.m in Sources */,
 				648C7D8E1D93D7D100D1DFD1 /* ViewController.m in Sources */,
 				648C7D8B1D93D7D100D1DFD1 /* AppDelegate.m in Sources */,
 				648C7D881D93D7D100D1DFD1 /* main.m in Sources */,
